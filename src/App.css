@@ -8,9 +8,10 @@
 }
 
 .journal-form{
-  display:grid;
-  row-gap: 20px;
-  padding: 50px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
 }
 
@@ -18,5 +19,23 @@
   display:flex;
   row-gap:20px;
   column-gap:20px;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  padding:30px
+}
+
+.journal-item{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding:10px
+}
+
+button{
+  border-radius: 10px;
+  background-color:rgb(f f f / 20%);
+  border:none;
+
+}
+
+.exit-button{
+  background-color: transparent;
 }
